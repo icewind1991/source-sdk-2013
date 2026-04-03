@@ -1,3 +1,7 @@
+# 33 max player tf2
+
+TF2, with the player limit set back to 33 to fix playing back older demos.
+
 # Source SDK 2013
 
 Source code for Source SDK 2013.
@@ -10,7 +14,11 @@ Contains the game code for Half-Life 2, HL2: DM and TF2.
 
 Clone the repository using the following command:
 
-`git clone https://github.com/ValveSoftware/source-sdk-2013`
+`git clone https://github.com/icewind1991/source-sdk-2013`
+
+Switch to the testing branch
+
+`git switch testing`
 
 ### Windows
 
@@ -49,7 +57,7 @@ This will build all the projects related to the SDK and your mods automatically 
 
 You can then, in the root of the cloned directory, you can navigate to `game` and run your mod by launching the build launcher for your mod project, eg:
 ```bash
-./mod_tf
+./tf
 ```
 
 *Mods that are distributed on Steam MUST be built against the Steam Runtime, which the above steps will automatically do for you.*
